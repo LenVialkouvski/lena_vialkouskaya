@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>never gonna give you up</title>
+ </head>
+ <style>
+    .main {display: table; width: 100%; background-color:grey;}
+    .navigation{background-color: beige;
+                 left: 0;
+                width: 15em;
+                display: table-cell;
+                overflow: auto;
+                }
+    .basic{background-color: rgb(224, 163, 48);
+        display: table-cell;
+           top:0;
+           float: right;
+           width: 100%;
+           margin-left: 15em;
+           margin-bottom: 0.2em}
+    .basement{background-color: rgb(204, 173, 116);
+            position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height:fit-content}
+    .icon {
+        object-fit: cover;
+         width: 5%;
+        height: 5%;
+        float:right}
+ </style>
+ <body>
+    <div class="main">
+     <div class="navigation">
+        <h1>Блок навигации</h1>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации заполните контентом достаточным, чтобы он по высоте начинал захватывать вторую статью, как показано в данном примере.</li>
+        </ul>
+     </div>
+     <div class="icon_helper">
+     <div class="basic">
+        Размер блока: занимает всю доступную ширину
+        Должен присутствовать цвет фона
+        Во всех "статьях" сделайте отступ снизу от соседей равным .2em при помощи свойства margin-bottom.
+        
+     </div>
+     <div class="basic">
+        Размер блока: занимает всю доступную ширину
+        Должен присутствовать цвет фона
+        Во всех "статьях" сделайте отступ снизу от соседей равным .2em при помощи свойства margin-bottom. Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для этой картинки.
+        <img src="https://cdn-icons-png.flaticon.com/512/84/84139.png" class="icon">
+     </div></div><footer class="basement">
+        Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.
+     </footer></div>
+
+  </form> 
+ </body>
+</html>
